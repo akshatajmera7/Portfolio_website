@@ -3,7 +3,6 @@ import { Github, Linkedin, Mail, Home, User, Trophy, Code, Menu, X, Facebook, In
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 // import { Separator } from "@/components/ui/separator";
-import ParticlesBackground from '@/components/ParticlesBackground';
 import ScrollToTop from '@/components/ScrollToTop';
 
 function App() {
@@ -57,7 +56,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0014] text-white relative">
-      <ParticlesBackground />
+
       <ScrollToTop />
       
       {/* Navigation */}
